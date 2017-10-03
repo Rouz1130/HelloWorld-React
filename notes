@@ -1,0 +1,13 @@
+Folder/File structure"
+-public/index.html - File that gets loaded to browsers. It contains the 'div' element with an 'id' value of root. e.g.:<div id="root"></div>.
+This is were contents of our React app will ultimately get printed. When we say 'contents' of our React app we are referring to files that end in .jsx.
+- src/index.js: ReactDOM.render call that looks for 'root' element (in our index.html <div>). There are import statements at the top of the page these statements are called
+'Modules'.
+-The goal of Modules is to divide the functionality into smaller and smaller pieces. Therefore when it comes time to use your small piece you use the 'import statement' on what
+you need as opposed to everything and the entire kitchen sink.
+-src/app.js: this is the default page that react loads. But all file structures will have a lot of similarities to this the structure that is.  'export default app'.
+contains a export command and the name of our project('app') wil use to identify the exported module.(It is this exported name you use when you use the 'import' statement.)
+
+What is the purpose of all of this?
+-The purpose of these modules, import statements, and export statements is simple. They are just niceties to help our app's code be more manageable.
+Instead of having everything defined in one giant file, you can break your code and related assets across multiple files
