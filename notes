@@ -11,3 +11,6 @@ contains a export command and the name of our project('app') wil use to identify
 What is the purpose of all of this?
 -The purpose of these modules, import statements, and export statements is simple. They are just niceties to help our app's code be more manageable.
 Instead of having everything defined in one giant file, you can break your code and related assets across multiple files
+
+-Build/Production/Deploy:
+-npm run build
